@@ -11,13 +11,13 @@ public class test
 	public void pre()
 	{
 		System.out.println("this is test class");
-		String value = System.getProperty("browser");
+		String value = System.getProperty("browserName");
 		System.out.println(value);
 	
-		String value2 = System.getProperty("platform");
+		String value2 = System.getProperty("platformName");
 		System.out.println(value2);
 		
-		String value3 = System.getProperty("url");
+		String value3 = System.getProperty("urlName");
 		System.out.println(value3);
 	
 	}
